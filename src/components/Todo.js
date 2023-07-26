@@ -29,10 +29,10 @@ const Todo = (props) => {
       </p>
       <div>
         <span className="iconspan">
-        <FaEdit onClick={onDeleteHandler} />
+        <FaEdit onClick={onEditHandler} />
         </span>
         <span>
-        <FaTrash onClick={onEditHandler} />
+        <FaTrash onClick={onDeleteHandler} />
         </span>
 
         {/* <FontAwesomeIcon icon={faPenToSquare} onClick={onEditHandler} />
